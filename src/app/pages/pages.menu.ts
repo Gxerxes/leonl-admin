@@ -318,6 +318,16 @@ export const PAGES_MENU = [
             target: '_blank'
           }
         }
+      },
+      {
+        path: 'modals',
+        data: {
+          menu: {
+            title: 'Modals',
+            icon: 'ion-android-exit',
+            order: 900
+          }
+        }
       }
     ]
   }
