@@ -63,7 +63,7 @@ export class ModalDirective implements AfterViewInit, OnDestroy {
   private scrollbarWidth: number = 0;
 
   // reference to backdrop component
-  private backdrop: ComponentRef<ModalBackdropComponent>;
+  private backdrop: ComponentRef<any>;
 
   private get document(): any {
     return this.componentsHelper.getDocument();

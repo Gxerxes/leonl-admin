@@ -328,6 +328,34 @@ export const PAGES_MENU = [
             order: 900
           }
         }
+      },
+      {
+        path: 'algorithms',
+        data: {
+          menu: {
+            title: 'Algorithm',
+            icon: 'ion-android-exit',
+            order: 1000
+          }
+        },
+        children: [
+          {
+            path: 'sorting',
+            data: {
+              menu: {
+                title: 'sorting'
+              }
+            }
+          },
+          {
+            path: 'sets',
+            data: {
+              menu: {
+                title: 'sets'
+              }
+            }
+          }
+        ]
       }
     ]
   }
