@@ -3,10 +3,13 @@ import forEach = require("core-js/fn/array/for-each");
 
 @Component({
   selector: 'algorithm-sets',
-  styles: [],
+  styles: [`input {color: black}`],
   template: require('./sets.html')
 })
 export class AlgorithmSets {
+
+  public myModel = '';
+  public mask = ['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
 
   ngOnInit() {
     console.log(this.compressString('AAABCCDDDD'));

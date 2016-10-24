@@ -4,11 +4,18 @@ import {AlgorithmSets} from "./components/sets/sets.component";
 import {AlgorithmSortings} from "./components/sorting/sorting.component";
 import {algorithmRouting} from "./algorithms.routing";
 import {Algorithms} from "./algorithms.component";
+import {TextMaskModule} from "../z-plugins/TextMaskModule";
+
+import {FormsModule} from '@angular/forms';
+import MaskedInput from 'angular2-text-mask'
+
 
 @NgModule({
   imports: [
     CommonModule,
-    algorithmRouting
+    algorithmRouting,
+    FormsModule,
+    TextMaskModule
   ],
   declarations: [
     Algorithms,
