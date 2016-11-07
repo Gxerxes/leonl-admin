@@ -1,3 +1,4 @@
+/*! @source https://github.com/valor-software/ng2-bootstrap/blob/development/components/utils/components-helper.service.ts*/
 import {
   ApplicationRef, ComponentFactoryResolver, ComponentRef, Injectable, Injector, ReflectiveInjector, ViewContainerRef,
   ResolvedReflectiveProvider, Type

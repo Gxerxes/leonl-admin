@@ -1,3 +1,4 @@
+/*! @source https://github.com/valor-software/ng2-bootstrap/blob/development/components/utils/utils.class.ts*/
 import { window } from './facade/browser';
 
 export class Utils {
